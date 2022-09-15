@@ -17,7 +17,7 @@ Our project is quite different in the way that our batch is the first in PSHS-MC
 
   - *Effects of online and in-person to students Page* - This webpage will contain information retrieved from the internet about studies, and sturveys done in recent years about how other students, schools, and countries transitioned to in-person learning and their effects on the students as well as staff, if applicable.
 
-  - *Personal Experiences Page -* This will contain our own personal opinions and anecdotes.
+  - *Creators' Experiences Page -* This will contain our own personal opinions and anecdotes.
 
   - *Interviews Page -* This page will contain the answers of five selected students in Grade 9 Potassium for a short interview we would be conducting with them about their own insights, opinions, and such. 
 
