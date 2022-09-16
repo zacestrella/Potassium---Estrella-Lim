@@ -1,4 +1,5 @@
-[9-Potassium.Lim.Estrella.-.Project.Proposal.Wireframe (1).pdf](https://github.com/zacestrella/Potassium---Estrella-Lim/files/9582479/9-Potassium.Lim.Estrella.-.Project.Proposal.Wireframe.1.pdf)
+[9-Potassium [Lim, Estrella] - Project Proposal Wireframe (2).pdf](https://github.com/zacestrella/Potassium---Estrella-Lim/files/9582492/9-Potassium.Lim.Estrella.-.Project.Proposal.Wireframe.2.pdf)
+
 
 # Potassium---Estrella-Lim
 
