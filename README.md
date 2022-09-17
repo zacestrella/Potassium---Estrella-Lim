@@ -14,6 +14,8 @@ Our project is quite different in the way that our batch is the first in PSHS-MC
 
 **Wireframe:**
 
+[KEstrellaLim - 1stQtrProposal.pdf](https://github.com/zacestrella/Potassium---Estrella-Lim/files/9591285/KEstrellaLim.-.1stQtrProposal.pdf)
+
 **Website:**
 
   - *Home Page -*  A short introduction and overview of the topic will be here, and the icons whicj would lead to their respective subpages for the home page. Here would also be a "getting to know the creators" part of the webpage.
