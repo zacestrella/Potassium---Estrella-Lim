@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: white;
+}
+
+.intro  {
+      font-family: 'Times New Roman';
+      font-style: Bold;
+      font-size: 50px;
+      color: #DAF1DE;
+      border: 2px solid black;
+      background: #0B2B26;
+      text-shadow:3px 3px #80a58c;
+      padding: 30px;
+      width: 900px;
+      text-align: Left;
+    }
+
+h3 {
+      font-family: 'Times New Roman';
+      font-style: Bold;
+      font-size: 50px;
+      color: #DAF1DE;
+      border: 2px dashed white;
+      background: #0B2B26;
+      text-shadow:3px 3px #80a58c;
+      padding: 30px;
+      width: 550px;
+      text-align: Center;
+      position: right;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+.center {
+      position: right;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  
+}
+
+#linkbox_effectsonstudents  {
+    background: #0B2B26;
+    display: block;
+    border: 4px solid #80a58c;
+    height: 100px;
+    width: 100px;
+} 
+
+#CreatorsExperiencesPage  {
+    background: #0B2B26;
+    display: block;
+    border: 4px solid #80a58c;
+    height: 100px;
+    width: 100px;
+} 
+
+#InterviewsPage  {
+    background: #0B2B26;
+    display: block;
+    border: 4px solid #80a58c;
+    height: 100px;
+    width: 100px;
+} 
+
+#SurveyResultsPage  {
+    background: #0B2B26;
+    display: block;
+    border: 4px solid #80a58c;
+    height: 100px;
+    width: 100px;
+} 
+
+ #ConclusionPage {
+    background: #0B2B26;
+    display: block;
+    border: 4px solid #80a58c;
+    height: 100px;
+    width: 100px;
+} 
