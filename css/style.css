@@ -81,3 +81,44 @@ h3 {
     height: 100px;
     width: 100px;
 } 
+
+h1 {
+      font-family: 'Courier new';
+      font-style: Italic;
+      font-color: white;
+      font-size: 50px;
+      background-color: #EDF5E1;
+      border: 2px solid black;
+      padding: 30px;
+      width: 1200px;
+      text-align: center;
+    }
+
+    h3 {
+      font-family: 'Courier new';
+      text-align: center;
+    }
+  
+    .individualParagraph {
+      font-family: 'Courier new';
+      float: left;
+      width: 600px;
+      height: 700px;
+      border: 2px dashed black;
+      box-sizing: border-box;
+      padding: 30px;
+      margin: 10px;
+      background-color: #EDF5E1;
+      text-align: center;
+    }
+
+    .comparison {
+      font-family: 'Courier new';
+      float: left;
+      width: 900px;
+      border: 2px dotted black;
+      padding: 30px;
+      margin: 10px;
+      background-color: #EDF5E1;
+      text-align: center;
+    }
