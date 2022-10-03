@@ -34,51 +34,6 @@ h3 {
       transform: translate(-50%, -50%);
     }
 
-html, body {
-  height: 100%;
-  width: 100%;
-  background: #8EE4AF
-}
-
-h1 {
-      font-family: 'Courier new';
-      font-style: Italic;
-      font-color: white;
-      font-size: 50px;
-      background-color: #EDF5E1;
-      border: 2px dashed black;
-      padding: 30px;
-      width: 700px;
-      text-align: left;
-    }
-
-h3 {
-      font-family: 'Courier new';
-      text-align: left;
-    }
-
-
-
-.experience1 {
-      font-family: 'Courier new';
-       background-color: #EDF5E1;
-      width: 1150px;
-      height: 140px;
-      border: 2px dashed black;
-      text-align: left;
-    }
-
-.experience2 {
-      font-family: 'Courier new';
-      background-color: #EDF5E1;
-      width: 1150px;
-      height: 140px;
-      border: 2px dashed black;
-      text-align: right;
-    }
-
-
-
 .center {
       position: right;
       position: absolute;
@@ -127,6 +82,8 @@ h3 {
     width: 100px;
 } 
 
+<---Effects of online and F2F to students--->
+
 h1 {
       font-family: 'Courier new';
       font-style: Italic;
@@ -166,4 +123,43 @@ h1 {
       margin: 10px;
       background-color: #EDF5E1;
       text-align: center;
+    }
+
+<---Subpage 1--->
+
+h1 {
+      font-family: 'Courier new';
+      font-style: Italic;
+      font-color: white;
+      font-size: 50px;
+      background-color: #EDF5E1;
+      border: 2px dashed black;
+      padding: 30px;
+      width: 700px;
+      text-align: left;
+    }
+
+h3 {
+      font-family: 'Courier new';
+      text-align: left;
+    }
+
+
+
+.experience1 {
+      font-family: 'Courier new';
+       background-color: #EDF5E1;
+      width: 1150px;
+      height: 140px;
+      border: 2px dashed black;
+      text-align: left;
+    }
+
+.experience2 {
+      font-family: 'Courier new';
+      background-color: #EDF5E1;
+      width: 1150px;
+      height: 140px;
+      border: 2px dashed black;
+      text-align: right;
     }
