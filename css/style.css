@@ -11,7 +11,8 @@ html, body {
       color: #DAF1DE;
       border: 2px solid black;
       background: #0B2B26;
-      text-shadow:3px 3px #80a58c;
+      text-shadow: 5px 5px 1px #80a58c,
+                   3px 3px 2px #0B2B26;
       padding: 30px;
       width: 900px;
       text-align: Left;
@@ -28,102 +29,65 @@ h3 {
       padding: 30px;
       width: 550px;
       text-align: Center;
-      position: right;
       position: absolute;
       left: 50%;
       transform: translate(-50%, -50%);
     }
 
 .center {
-      position: right;
-      position: absolute;
+      /*position: absolute;*/
       left: 50%;
       transform: translate(-50%, -50%);
-  
+        }
+
+.centerimage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;  
 }
 
-#linkbox_effectsonstudents  {
-    background: #0B2B26;
-    display: block;
-    border: 4px solid #80a58c;
+.linkboxes  {
     height: 100px;
-    width: 100px;
+    width: 1500px;
+    text-align: center;
+    margin: 0 auto;
 } 
+.linkboxes_p {
+  background: #0B2B26;
+  height: 75px;
+  width: 200px;
+  text-align:center;
+  display: inline-block;
+  color: white;
+}
+.linkboxes a {
+  color: white;
+}
 
-#CreatorsExperiencesPage  {
-    background: #0B2B26;
-    display: block;
-    border: 4px solid #80a58c;
-    height: 100px;
-    width: 100px;
-} 
+#homepagedescription {
+    padding: 10px; 
+    border: 2px solid #0B2B26;
+}
 
-#InterviewsPage  {
-    background: #0B2B26;
-    display: block;
-    border: 4px solid #80a58c;
-    height: 100px;
-    width: 100px;
-} 
+.textstyles {
+  font-size: 20px;
+  font: Times New Roman;
+  margin: auto;
+  vertical-align: text-top;
+}
 
-#SurveyResultsPage  {
-    background: #0B2B26;
-    display: block;
-    border: 4px solid #80a58c;
-    height: 100px;
-    width: 100px;
-} 
+#creator1_image{
+      display: block;  
+      height: 300px;
+      width: 3000px;
+      align: left;
+      margin: 0 auto;
+      
+}
 
- #ConclusionPage {
-    background: #0B2B26;
-    display: block;
-    border: 4px solid #80a58c;
-    height: 100px;
-    width: 100px;
-} 
 
-<---Effects of online and F2F to students--->
 
-h1 {
-      font-family: 'Courier new';
-      font-style: Italic;
-      font-color: white;
-      font-size: 50px;
-      background-color: #EDF5E1;
-      border: 2px solid black;
-      padding: 30px;
-      width: 1200px;
-      text-align: center;
-    }
-
-    h3 {
-      font-family: 'Courier new';
-      text-align: center;
-    }
-  
-    .individualParagraph {
-      font-family: 'Courier new';
-      float: left;
-      width: 600px;
-      height: 700px;
-      border: 2px dashed black;
-      box-sizing: border-box;
-      padding: 30px;
-      margin: 10px;
-      background-color: #EDF5E1;
-      text-align: center;
-    }
-
-    .comparison {
-      font-family: 'Courier new';
-      float: left;
-      width: 900px;
-      border: 2px dotted black;
-      padding: 30px;
-      margin: 10px;
-      background-color: #EDF5E1;
-      text-align: center;
-    }
 
 <---Creators' Experiences--->
 
