@@ -29,6 +29,6 @@ Our project is quite different in the way that our batch is the first in PSHS-MC
 
   - *Interviews Page -* This page will contain the answers of five selected students in Grade 9 Potassium for a short interview we would be conducting with them about their own insights, opinions, and such. 
 
-  - *Survey Results Page -* This page will consist of the data recieved from our survey to be answered by the students of grade 9 Potassium, us two included, once the First Quarter has come to an end.
+  - *Survey Results Page -* This page will consist of the data recieved from our survey to be answered by different students.
 
   - *Conclusion Page -* We will conclude our findings which shall have the answer to the question; F2F versus Online: Which Prevails?
