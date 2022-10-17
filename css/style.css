@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(#e2d9c5, #a6a091)
+  background-image: linear-gradient( #e2d9c5, #a6a091)
 }
 
 .intro  {
@@ -30,34 +30,43 @@ html, body {
       width: 100%;  
 }
 
-#linkboxes  {  
-    height: 250px;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;    
-} 
+#container {
+  clear: left; /* so as not to follow floated element */
+  width: 55%;
+  height: 175px;
+  margin: 50 auto 50;
+  overflow: hidden;
+}
 
-.linkboxes_p {
-  background: #0B2B26;
-  height: 75px;
+.linkboxes_p{
+  background-color: #0B2B26;
   width: 200px;
-  text-align:center;
-  display: inline-block;
+  height: 75px;
+  text-align: center;
+  padding-top:15px;
+  border: 2px outset lightgray;
   color: white;
-  margin: 0 auto;
-  padding: 25px, 25px;
-  
+  margin-left: 25;
+  float: left;
+}
+
+#container_description {
+  clear: left; /* so as not to follow floated element */
+  width: 80%;
+  height: 200px;
+  overflow: hidden;
+  margin: 50 auto;
 }
 
 #homepagedescription {
     padding: 10px; 
-    border: 2px solid #0B2B26
+    border: 2px solid #0B2B26;
+  float left
 }
 
 .textstyles {
   font-size: 20px;
-  font: Times New Roman;
-  margin: auto;
+  font: "Times New Roman";
 }
 
 #about_us {
@@ -78,27 +87,30 @@ html, body {
         }
 
 #creator1 {  
+    clear: left;
     background: #a6a091;
-    border: 2px solid #8b8679;
-    height: 175px;
+    border: 2px outset #8b8679;
+    height: 170px;
     width: 55%;
     text-align: left;
-    margin: 0 auto;    
+    margin: 0 auto;   
+    overflow: hidden;
+    padding: 20px;
 } 
 
-#creator1_image img{
+#creator1_image {
     display: block;  
     height: 150px;
     width: 150px;
-    margin: 10px;
     float: left;
+    margin: 15px;
+    padding-bottom: 100px;
 }
 
 #creator1_text {
   font-size: 20px;
   font: Times New Roman;
-  text-align-last: right;
-  text-align:justify;
+  padding: 20px;
 } 
 
 .right {
@@ -107,27 +119,29 @@ html, body {
         }
 
 #creator2 {  
+    clear: left;
     background: #a6a091;
-    border: 2px solid #8b8679;
+    border: 2px outset #8b8679;
     height: 175px;
     width: 55%;
-    text-align: justify;
-    margin: 0 auto;    
+    text-align: left;
+    margin: 0 auto;   
+    overflow: hidden;
+    padding: 20px;  
 } 
 
-#creator2_image img{
+#creator2_image {
     display: block;  
-    height: 150px;
+    height: 150 px;
     width: 150px;
-    margin: 10px;
     float: right;
+    margin: 15px;
 }
 
 #creator2_text {
   font-size: 20px;
   font: Times New Roman;
   text-align-last: left;
-  text-align:center;
 } 
 
 
