@@ -146,80 +146,99 @@ html, body {
 
 <--- For Subpage1.html --->
 
- h1 {
+   h1 {
       font-family: 'Times New Roman';
       font-style: Italic;
       color: white;
       font-size: 50px;
       background-color: #0B2B26;
-      border: 2px dashed white;
+      border: 5px solid white;
       padding: 30px;
       width: 700px;
       text-align: left;
-      transform: translate(20%, 10%);
+      z-index: -1;
     }
 
     h3 {
       font-family: 'Times New Roman';
       text-align: center;
-      transform: translate(10%, 10%);
+      transform: translate(0%, 10%);
+    }
+
+    .titles {
+      font-family: 'Times New Roman';
+      background-color: #587470;
+      width: 1000px;
+      height: 40px;
+      border: 2px solid white;
+      text-align: center;
+      color: white;
+      transform: translate(10%, 50%);
     }
   
     .individualParagraph {
       font-family: 'Times New Roman';
-      float: left;
       width: 600px;
       height: 700px;
-      border: 2px dashed white;
+      float: left;
+      border: 5px solid white;
       box-sizing: border-box;
       padding: 30px;
       margin: 10px;
       background-color: #0B2B26;
       text-align: center;
       color: white;
-      transform: translate(23%, 0%);
+      overflow: auto;
     }
 
     .comparison {
       font-family: 'Times New Roman';
       float: left;
       width: 900px;
-      border: 2px dotted white;
+      border: 5px solid white;
       padding: 30px;
       margin: 10px;
       background-color: #0B2B26;
       text-align: center;
       color: white;
-      transform: translate(25%, 0%);
+      transform: translate(10%, 0%);
     }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100px;
-  float: right;
-  border: 3px solid black;
-  position: fixed;
-  overflow: auto;
+#navigationBar {
+  width: 100%;
+  height: 75px;
+  overflow: hidden;
+        position: sticky;
+        position: -webkit-sticky;
+  top: 0;
+  background:  #0B2B26;
+/*  border: 2px solid navy; */
+}
+
+
+.individualNavigation_p{
+  width: 150px;
+  height: 75px;
+  text-align: center;
+  color: white;
+  margin-left: 25;
+  float: left;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
   z-index: 1;
+  
 }
 
-li a {
-  display: block;
-  color: black;
-  padding: 16px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #0B2B26;
-  color: #a3ea39;
+.individualNavigation_p:hover {
+  transform: scale(1.5); 
+  background: #59c98f;
+  color: #354643;
 }
 
 .active{
-  background-color: #04AA6D;
-  color: white;
+  background-color: #59c98f;
+  color: black;
 }
 
 <--- For Subpage2.html --->
@@ -230,17 +249,15 @@ h1 {
       color: white;
       font-size: 50px;
       background-color: #0B2B26;
-      border: 2px dashed white;
+      border: 2px solid white;
       padding: 30px;
       width: 700px;
       text-align: left;
-  transform: translate(20%, 10%);
     }
 
 h3 {
       font-family: 'Times New Roman';
       text-align: left;
-  transform: translate(15%, 10%);
     }
 
 .firstname{
@@ -248,23 +265,23 @@ h3 {
       background-color: #587470;
       width: 400px;
       height: 40px;
-      border: 2px dashed white;
+      border: 2px solid white;
       text-align: center;
       color: white;
-  transform: translate(45%, 90%);
+  transform: translate(5%, 100%);
 }
 
 .experience1 {
       font-family: 'Times New Roman';
       background-color: #0B2B26;
-      width: 1090px;
-      height: 250px;
-      border: 2px dashed white;
+      width: 700px;
+      height: 230px;
+      border: 2px solid white;
       right: 100%;
       color: white;
-      float: right;
       top: 30px;
       padding: 5px 5px;
+      overflow: auto;
     }
 
 .secondname{
@@ -272,52 +289,63 @@ h3 {
       background-color: #587470;
       width: 400px;
       height: 40px;
-      border: 2px dashed white;
+      border: 2px solid white;
       text-align: center;
       color: white;
-  transform: translate(167%, 90%);
+      transform: translate(70%, 100%);
 }
 
 .experience2 {
       font-family: 'Times New Roman';
       background-color: #0B2B26;
-      width: 1090px;
-      height: 260px;
-      border: 2px dashed white;
-      text-align: left;
+      width: 700px;
+      height: 230px;
+      border: 2px solid white;
+      right: 100%;
       color: white;
+      top: 30px;
       padding: 5px 5px;
+      overflow: auto;
     }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100px;
-  float: right;
-  border: 3px solid black;
-  position: fixed;
-  overflow: auto;
+#navigationBar {
+  width: 100%;
+  height: 75px;
+  overflow: hidden;
+        position: sticky;
+        position: -webkit-sticky;
+  top: 0;
+  background:  #0B2B26;
+/*  border: 2px solid navy; */
 }
 
-li a {
-  display: block;
-  color: black;
-  padding: 16px 16px;
-  text-decoration: none;
+.linkboxes_p{
+  width: 150px;
+  height: 75px;
+  text-align: center;
+  color: white;
+  margin-left: 25;
+  float: left;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+  
 }
 
-li a:hover {
-  background-color: #0B2B26;
-  color: #a3ea39;
+.linkboxes_p:hover {
+  transform: scale(1.5); 
+  background:  #59c98f;
+  color: #354643;
 }
 
 .active{
-  background-color: #04AA6D;
-  color: white;
+  background-color: #59c98f;
+  color: black;
 }
 
-
+.images{
+  float: right;
+}
 
 
 
