@@ -1,67 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
 html, body {
-  height: 100%;
+  height: 100vh;
   width: 100%;
-  background-image: linear-gradient( #e2d9c5, #a6a091)
+}
+
+#container {
+  width: 200%;
+  height: 75px;
+  overflow: hidden;
+        position: sticky;
+        position: -webkit-sticky;
+  top: 0;
+  background:  #0B2B26;
+}
+
+.linkboxes_p{
+  width: 150px;
+  height: 75px;
+  text-align: center;
+  color: white;
+  margin-left: 25;
+  float: left;
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+.linkboxes_p:hover {
+  transform: scale(1.5); 
+  background: #7ea59f;
+  color: #354643;
+}
+
+#containerintro {
+  width: 100%;
 }
 
 .intro  {
       font-family: 'Times New Roman';
       font-style: Bold;
       font-size: 50px;
-      color: #DAF1DE;
-      border: 2px solid black;
-      background: #0B2B26;
+      color:  #0B2B26;
       text-shadow: 5px 5px 1px #80a58c,
-                   3px 3px 2px #0B2B26;
+                   3px 3px 2px #DAF1DE;
       padding: 30px;
       width: 900px;
       text-align: Left;
     }
 
-.center {
-      left: 50%;
-      transform: translate(-50%, -50%);
-        }
-
-.centerimage {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;  
-}
-
-#container {
-  clear: left; /* so as not to follow floated element */
-  width: 55%;
-  height: 175px;
-  margin: 50 auto 50;
-  overflow: hidden;
-}
-
-.linkboxes_p{
-  background-color: #0B2B26;
-  width: 200px;
-  height: 75px;
-  text-align: center;
-  padding-top:15px;
-  border: 2px outset lightgray;
-  color: white;
-  margin-left: 25;
-  float: left;
-}
+hr {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        margin-top: 5%;
+      }
 
 #container_description {
-  clear: left; /* so as not to follow floated element */
+  clear: left; 
   width: 80%;
-  height: 200px;
   overflow: hidden;
-  margin: 50 auto;
+  margin: 0 auto;
 }
 
 #homepagedescription {
-    padding: 10px; 
-    border: 2px solid #0B2B26;
-  float left
+    float: left;
+    text-align: justify;
 }
 
 .textstyles {
@@ -81,272 +85,54 @@ html, body {
     text-shadow:3px 3px 
 }
 
-.left {
-      left: 100%;
-      transform: translate(-20%, -20%);
-        }
 
-#creator1 {  
-    clear: left;
-    background: #a6a091;
-    border: 2px outset #8b8679;
-    height: 170px;
-    width: 55%;
-    text-align: left;
-    margin: 0 auto;   
+#creator1container {  
+    background-image:linear-gradient(to left, #e6e6e6 75%, Transparent 25%); 
+    width: 65%;
     overflow: hidden;
-    padding: 20px;
-} 
-
-#creator1_image {
-    display: block;  
-    height: 150px;
-    width: 150px;
-    float: left;
-    margin: 15px;
-    padding-bottom: 100px;
+    padding: 10px;
+    margin-bottom: 10%;
+    margin-top: 5%
 }
 
-#creator1_text {
-  font-size: 20px;
-  font: Times New Roman;
-  padding: 20px;
-} 
+#creator1_image img{
+  width: 30%;
+  float: left;
+  margin-right: 5%
+}
 
-.right {
-      right: 100%;
-      transform: translate(20%, 20%);
-        }
+#creator1_textcontainer {
+  float: left;
+  width: 56%;
+}
 
-#creator2 {  
-    clear: left;
-    background: #a6a091;
-    border: 2px outset #8b8679;
-    height: 175px;
-    width: 55%;
-    text-align: left;
-    margin: 0 auto;   
+#creator1_text{
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 110%;
+  text-align: justify;
+}
+
+#creator2container {  
+    background-image:linear-gradient(to right, #e6e6e6 75%, Transparent 25%); 
+    width: 65%;
     overflow: hidden;
-    padding: 20px;  
-} 
-
-#creator2_image {
-    display: block;  
-    height: 150 px;
-    width: 150px;
+    padding: 10px;
     float: right;
-    margin: 15px;
 }
 
-#creator2_text {
-  font-size: 20px;
-  font: Times New Roman;
-  text-align-last: left;
-} 
-
-<--- For Subpage1.html --->
-
-   h1 {
-      font-family: 'Times New Roman';
-      font-style: Italic;
-      color: white;
-      font-size: 50px;
-      background-color: #0B2B26;
-      border: 5px solid white;
-      padding: 30px;
-      width: 700px;
-      text-align: left;
-      z-index: -1;
-    }
-
-    h3 {
-      font-family: 'Times New Roman';
-      text-align: center;
-      transform: translate(0%, 10%);
-    }
-
-    .titles {
-      font-family: 'Times New Roman';
-      background-color: #587470;
-      width: 1000px;
-      height: 40px;
-      border: 2px solid white;
-      text-align: center;
-      color: white;
-      transform: translate(10%, 50%);
-    }
-  
-    .individualParagraph {
-      font-family: 'Times New Roman';
-      width: 600px;
-      height: 700px;
-      float: left;
-      border: 5px solid white;
-      box-sizing: border-box;
-      padding: 30px;
-      margin: 10px;
-      background-color: #0B2B26;
-      text-align: center;
-      color: white;
-      overflow: auto;
-    }
-
-    .comparison {
-      font-family: 'Times New Roman';
-      float: left;
-      width: 900px;
-      border: 5px solid white;
-      padding: 30px;
-      margin: 10px;
-      background-color: #0B2B26;
-      text-align: center;
-      color: white;
-      transform: translate(10%, 0%);
-    }
-
-#navigationBar {
-  width: 100%;
-  height: 75px;
-  overflow: hidden;
-        position: sticky;
-        position: -webkit-sticky;
-  top: 0;
-  background:  #0B2B26;
-/*  border: 2px solid navy; */
-}
-
-
-.individualNavigation_p{
-  width: 150px;
-  height: 75px;
-  text-align: center;
-  color: white;
-  margin-left: 25;
-  float: left;
-        position: sticky;
-        position: -webkit-sticky;
-        top: 0;
-  z-index: 1;
-  
-}
-
-.individualNavigation_p:hover {
-  transform: scale(1.5); 
-  background: #59c98f;
-  color: #354643;
-}
-
-.active{
-  background-color: #59c98f;
-  color: black;
-}
-
-<--- For Subpage2.html --->
-
-h1 {
-      font-family: 'Times New Roman';
-      font-style: Italic;
-      color: white;
-      font-size: 50px;
-      background-color: #0B2B26;
-      border: 2px solid white;
-      padding: 30px;
-      width: 700px;
-      text-align: left;
-    }
-
-h3 {
-      font-family: 'Times New Roman';
-      text-align: left;
-    }
-
-.firstname{
-  font-family: 'Times New Roman';
-      background-color: #587470;
-      width: 400px;
-      height: 40px;
-      border: 2px solid white;
-      text-align: center;
-      color: white;
-  transform: translate(5%, 100%);
-}
-
-.experience1 {
-      font-family: 'Times New Roman';
-      background-color: #0B2B26;
-      width: 700px;
-      height: 230px;
-      border: 2px solid white;
-      right: 100%;
-      color: white;
-      top: 30px;
-      padding: 5px 5px;
-      overflow: auto;
-    }
-
-.secondname{
-  font-family: 'Times New Roman';
-      background-color: #587470;
-      width: 400px;
-      height: 40px;
-      border: 2px solid white;
-      text-align: center;
-      color: white;
-      transform: translate(70%, 100%);
-}
-
-.experience2 {
-      font-family: 'Times New Roman';
-      background-color: #0B2B26;
-      width: 700px;
-      height: 230px;
-      border: 2px solid white;
-      right: 100%;
-      color: white;
-      top: 30px;
-      padding: 5px 5px;
-      overflow: auto;
-    }
-
-#navigationBar {
-  width: 100%;
-  height: 75px;
-  overflow: hidden;
-        position: sticky;
-        position: -webkit-sticky;
-  top: 0;
-  background:  #0B2B26;
-/*  border: 2px solid navy; */
-}
-
-.linkboxes_p{
-  width: 150px;
-  height: 75px;
-  text-align: center;
-  color: white;
-  margin-left: 25;
-  float: left;
-        position: sticky;
-        position: -webkit-sticky;
-        top: 0;
-  
-}
-
-.linkboxes_p:hover {
-  transform: scale(1.5); 
-  background:  #59c98f;
-  color: #354643;
-}
-
-.active{
-  background-color: #59c98f;
-  color: black;
-}
-
-.images{
+#creator2_image img{
+  width: 30%;
   float: right;
+  margin-left: 5%;
 }
 
+#creator2_textcontainer {
+  float: right;
+  width: 56%;
+}
 
-
-
+#creator2_text{
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 110%;
+  text-align: justify;
+}
