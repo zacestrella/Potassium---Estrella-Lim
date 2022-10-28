@@ -246,7 +246,7 @@ hr {
       overflow: auto;
     }
 
-.images{
+.imagesOfExperiences{
   float: right;
   position: relative;
   transform: translate(-20%, 45%);
