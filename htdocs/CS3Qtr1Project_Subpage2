@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Creator's Experiences</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta name = "revised" content = "23-Oct-2022">
+  <link rel="icon" type="image/x-icon" href="/images/creator's page icon.png">
+</head>
+
+<body>
+  <body>
+
+     <div id = "navigationBar">
+
+    <a href= "https://CS3Qtr1ProjectHomepage.zacestrella.repl.co"> 
+      <div class="linkboxes_p">
+        <p> 
+          Homepage
+        </p>
+      </div>
+    </a>
+
+    <!--Effects Link-->
+    <a href= "https://cs3qtr1projectsubpage1.bajlim.repl.co/"> 
+      <div class="linkboxes_p">
+        <p> 
+          Effects to students 
+        </p>
+      </div>
+    </a>
+
+    <a href= "https://CS3Qtr1ProjectSubpage2.bajlim.repl.co"> 
+      <div class="linkboxes_p">
+         <div class = "active">
+        <p> 
+          Creators' Experiences Page 
+        </p>
+         </div>
+      </div>
+    </a>
+
+       <a href= "">       
+         <div class="linkboxes_p">
+        <p> 
+         Interviews Page 
+        </p>
+      </div>
+    </a>    
+
+    <a href= ""> 
+      <div class="linkboxes_p">
+        <p> 
+          Survey Results Page
+        </p>
+      </div>
+    </a>  
+
+    <!--Conclusion Page Link-->
+    <a href= ""> 
+      <div class="linkboxes_p">
+        <p> 
+          Conclusion Page
+        </p>
+      </div>
+    </a>   
+
+
+    </div>
+
+
+
+  <h1>  CREATORS' EXPERIENCES </h1>
+
+    <div class = "images"><img src = "images/adah online.png" height = 230px width = 390px></div>
+
+    <h3> <b> What are our personal experiences with both modes of learning? </b></h3>
+
+    <h2 class = "firstname">ZARESSIEL ADAH ESTRELLA</h2> 
+
+    <div class = 'experience1'>
+  <p> 
+  <br></br>
+  For me, online learning was certainly a very different experience from what I’ve been used to. It was out of my comfort zone for I had never tried this sort of set up before. It took me a while to get used to this again but after some time I’d say that I adapted to it very quickly. The learning environment though wasn’t as effective as it could’ve been, especially in its first year. During this I was also more prone to being distracted. But it did have some upsides to it. For example, I met some of my closest friends now during our online set up. I also got to study at my own pace and it didn’t feel too overwhelming since the submission dates and the teachers were very flexible and accommodating. 
+
+Face to face however is a completely different story on its own. This mode of learning in Pisay is definitely more enjoyable and has its own pros and cons. Pros for example would be that I get to see my classmates, friends, and teachers face to face, I also get to experience lectures taught in front of me again rather than just through a screen, and I can be in the campus while I learned. However this also comes with its cons like requirements having stricter deadlines, everything is more fast paced, and the curriculum had been readjusted to how they were pre-pandemic. 
+
+For me however face to face’s pros definitely outweigh its cons. Although it is more tiring it is also more enjoyable. I can interact with my peers and my teachers, and I can finally start experiencing the true pisay experience.
+  </p>
+    </div>
+
+
+    <div class = "images"><img src = "images/bianca f2f.jpg" height = 230px width = 390px></div>
+<h2 class = "secondname">BIANCA AURORA J. LIM</h2>
+  <div class = 'experience2'>
+<p>
+<br></br>
+I would say that I vastly enjoyed face to face classes rather than online learning if I were to base my experience off elementary school. However, I was able to adapt to online learning as well for the past 2 years. At first, I was really bored as all I did was look at my screen all day and had little to no interaction with my classmates and teachers. Synchronous classes in Grade 7 only let teachers have a max of 15 minutes of interaction with the students. It was also quite hard to learn my lessons because it wasn't very easy to contact and talk to each other, given how little our interactions were. But as time passed, I got used to this mode of learning. Things really improved when I entered grade 8 since I learned how to make new friends and did the best I could to socialize and talk. In addition to that, the synchronous lectures were allowed to extend until 50 minutes which greatly helped with my topics and let our class get to know the teacher more. Now that we are on face-to-face learning, I am still quite adjusting to the environment and the time period that we are in school. When I was in elementary, we would always have half-days, so I am more tired in Pisay given the 7-4 schedule. However, being with my friends and classmates has lifted my spirits as we're able to give each other emotional support and help out one another. It is also easier to consult with our teachers regarding the things we do not understand. In conclusion, I'd say that I'm still adjusting to our face-to-face set up but I still favor it much better over online classes. <!---Bianca's experience--->
+  <br></br>
+</p>
+  </div>
+    </span>
+
+
+   
+    
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
