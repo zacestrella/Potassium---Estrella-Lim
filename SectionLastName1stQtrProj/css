@@ -1,0 +1,290 @@
+<---For Homepage--->
+
+html, body {
+  height: 100vh;
+  width: 100%;
+}
+
+#container {
+  width: 200%;
+  height: 75px;
+  overflow: hidden;
+        position: sticky;
+        position: -webkit-sticky;
+  top: 0;
+  background:  #0B2B26;
+}
+
+.linkboxes_p{
+  width: 150px;
+  height: 75px;
+  text-align: center;
+  color: white;
+  margin-left: 25;
+  float: left;
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+.linkboxes_p:hover {
+  transform: scale(1.5); 
+  background: #7ea59f;
+  color: #354643;
+}
+
+#containerintro {
+  width: 100%;
+}
+
+.intro  {
+      font-family: 'Times New Roman';
+      font-style: Bold;
+      font-size: 50px;
+      color:  #0B2B26;
+      text-shadow: 5px 5px 1px #80a58c,
+                   3px 3px 2px #DAF1DE;
+      padding: 30px;
+      width: 900px;
+      text-align: Left;
+    }
+
+hr {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        margin-top: 5%;
+      }
+
+#container_description {
+  clear: left; 
+  width: 80%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#homepagedescription {
+    float: left;
+    text-align: justify;
+}
+
+.textstyles {
+  font-size: 20px;
+  font: "Times New Roman";
+}
+
+#about_us {
+    height: 175px;
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+    font-family: 'Times New Roman';
+    font-style: Bold;
+    font-size: 50px;
+    color: #DAF1DE;
+    text-shadow:3px 3px 
+}
+
+
+#creator1container {  
+    background-image:linear-gradient(to left, #e6e6e6 75%, Transparent 25%); 
+    width: 65%;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 10%;
+    margin-top: 5%
+}
+
+#creator1_image img{
+  width: 30%;
+  float: left;
+  margin-right: 5%
+}
+
+#creator1_textcontainer {
+  float: left;
+  width: 56%;
+}
+
+#creator1_text{
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 110%;
+  text-align: justify;
+}
+
+#creator2container {  
+    background-image:linear-gradient(to right, #e6e6e6 75%, Transparent 25%); 
+    width: 65%;
+    overflow: hidden;
+    padding: 10px;
+    float: right;
+}
+
+#creator2_image img{
+  width: 30%;
+  float: right;
+  margin-left: 5%;
+}
+
+#creator2_textcontainer {
+  float: right;
+  width: 56%;
+}
+
+#creator2_text{
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 110%;
+  text-align: justify;
+}
+
+<---Subpage1--->
+
+    .h1Subpage1 {
+      font-family: 'Times New Roman', sans-serif;
+      font-style: Italic;
+      font-size: 50px;
+      text-align: center;
+      color: #0B2B26;
+    }
+
+    .h3Subpage1 {
+      font-family: 'Times New Roman', sans-serif;
+      text-align: center;
+      transform: translate(0%, 10%);
+      color: #0B2B26;
+    }
+
+  
+    .individualDescriptions {
+      font-family: 'Times New Roman', sans-serif;
+      width: 600px;
+      height: 700px;
+      float: left;
+      box-sizing: border-box;
+      padding: 30px;
+      margin: 10px;
+      background-color: #0B2B26;
+      text-align: center;
+      border: 2px solid white;
+      color: white;
+      overflow: auto;
+    }
+
+    .comparison {
+      font-family: 'Times New Roman', sans-serif;
+      float: left;
+      width: 900px;
+      border: 5px solid white;
+      padding: 30px;
+      margin: 10px;
+      color: white;
+      background-color: #0B2B26;
+      text-align: center;
+      transform: translate(10%, 0%);
+    }
+
+<---Subpage 2--->
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+.h1Subpage2 {
+      font-family: 'Times New Roman';
+      font-style: Italic;
+      font-size: 50px;
+      color: #0B2B26;
+      text-align: center;
+    }
+
+.h3Subpage2 {
+      font-family: 'Times New Roman';
+    }
+
+.firstname{
+  font-family: 'Times New Roman';
+      background-color: #587470;
+      width: 400px;
+      height: 40px;
+      border: 2px solid white;
+      text-align: center;
+      color: white;
+  transform: translate(5%, 100%);
+}
+
+.experience1 {
+      font-family: 'Fuzzy Bubbles', cursive;
+      background-color: #0B2B26;
+      width: 700px;
+      height: 230px;
+      border: 2px solid white;
+      right: 100%;
+      color: white;
+      top: 30px;
+      padding: 5px 5px;
+      overflow: auto;
+    }
+
+.secondname{
+  font-family: 'Times New Roman';
+      background-color: #587470;
+      width: 400px;
+      height: 40px;
+      border: 2px solid white;
+      text-align: center;
+      color: white;
+      transform: translate(70%, 100%);
+}
+
+.experience2 {
+      font-family: 'Fuzzy Bubbles', cursive;
+      background-color: #0B2B26;
+      width: 700px;
+      height: 230px;
+      border: 2px solid white;
+      right: 100%;
+      color: white;
+      top: 30px;
+      padding: 5px 5px;
+      overflow: auto;
+    }
+
+.images{
+  float: right;
+  position: relative;
+  transform: translate(-20%, 45%);
+  z-index: -1;
+}
+
+<---For Navigation (for the 2 subpages)--->
+#navigationBar {
+  width: 100%;
+  height: 75px;
+  overflow: hidden;
+        position: sticky;
+        position: -webkit-sticky;
+  top: 0;
+  background:  #0B2B26;
+}
+
+.individualNavigation_p{
+  width: 150px;
+  height: 75px;
+  text-align: center;
+  color: white;
+  margin-left: 25;
+  float: left;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+  
+}
+
+.individualNavigation_p:hover {
+  transform: scale(1.5); 
+  background: #7ea59f;
+  color: #354643;
+}
+
+.active{
+  background-color: #7ea59f;
+  color: black;
+}
+
